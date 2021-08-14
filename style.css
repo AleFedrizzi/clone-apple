@@ -1,0 +1,408 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+
+.nav-list-mobile{
+    display: none;
+}
+
+.nav-link{
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 0 1rem;
+    transition: opacity 0.3s;
+}
+
+.nav-list a:hover{
+    opacity: 0.7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    background: url("img/icons/apple.svg") no-repeat center;
+    height: 4.4rem;
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    background: url("img/icons/search.svg") no-repeat center;
+    height: 4.4rem;
+}
+
+.nav-link-bag{
+    width: 1.4rem;
+    background: url("img/icons/bag.svg") no-repeat center;
+    height: 4.4rem;
+}
+
+.information{
+    height: 4.4rem;
+    width: 100%;
+    background: #2997ff;
+    text-align: center;
+    line-height: 4.4rem;
+    margin-top: 4.4rem;
+}
+
+.information a span{
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.information-2{
+    height: 4.4rem;
+    width: 100%;
+    background: #f5f5f7;
+    text-align: center;
+    line-height: 4.4rem;
+    color: #000;
+    font-size: 1.2rem;
+    
+}
+
+.information-2 a span{
+    color: #0071e3;
+    cursor: pointer;
+}
+
+.information-2 a span:hover{
+    border-bottom: 1px solid #0071e3;
+}
+
+.iphone-12-pro{
+    background: url("./img/iPhone_12.jpg") no-repeat  center;
+}
+
+.hero{
+    height: 75rem;
+    background-size: auto 76.3rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 0.6rem solid #fff;
+    border-bottom: 0.6rem solid #fff;
+}
+
+.iphone-12-pro{
+    border-top: none;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+}
+
+.title-sub-heading{
+    font-size: 2.5rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+}
+
+.title-price{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 42rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.cta-link{
+    color: #2997ff;
+    font-size: 2rem;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 5rem;
+}
+
+.cta-link:hover{
+    border-bottom: 1px solid #2997ff;
+}
+
+.iphone-12{
+    background: url("./img/iPhone_12A.jpg") no-repeat center;
+    height: 60rem;
+    background-size: auto 80rem;
+}
+
+.title-dark{
+    color: #000;
+}
+
+.ipad{
+    background: url("./img/hero_ipad_pro.jpg") no-repeat center;
+    background-size: auto 70rem;
+    height: 70rem;
+}
+
+.watch{
+    background: url("./img/hero/watch/watch_large.jpg") no-repeat center;
+}
+
+.title-heading-watch{
+    height: 7.8rem;
+    background: url("./img/hero/watch/logo_watch_large.png") no-repeat center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.watch .title-sub-heading{
+    font-size: 2rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+}
+
+/* Home Cards */
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.title-heading-item{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -0.005rem;
+    margin-top: 5rem;
+}
+
+.title-sub-heading-item{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+}
+
+.title-sub-heading-item-white{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+}
+
+.item{
+    background-size: auto 65rem;
+    background-position: center;
+    height: 60rem;
+    background-repeat: no-repeat;
+}
+
+sup{
+    font-size: 10px;
+}
+
+.item-imac{
+    background-image: url("./img/itens/promo_imac.jpeg");
+    border-left: 10px solid #fff;
+}
+
+.item-watch{
+    background-image: url("./img/itens/promo_watch.jpg");
+    border-right: 10px solid #fff;
+}
+
+.item-ios15{
+    background-image: url("./img/itens/tile_ios15__fdoo.jpg");
+    border-left: 10px solid #fff;
+}
+
+.item-tag{
+    background-image: url("./img/itens/promo_airtag.jpg");
+    border-right: 10px solid #fff;
+}
+
+.item-music{
+    background-image: url("./img/itens/promo_spatial_audio.jpg");
+    border-left: 10px solid #fff;
+}
+
+.title-heading-item-music{
+    height: 7.8rem;
+    background: url("./img/hero/watch/logo_watch_large_white2.png") no-repeat center;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.title-heading-item-tv{
+    height: 7.8rem;
+    background: url("./img/hero/watch/tv.png") no-repeat center;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.item-tv{
+    background-image: url("./img/itens/promo_ignite.jpg");
+    border-right: 10px solid #fff;
+}
+
+.cta-link-white{
+    color: #fff;
+    font-size: 2rem;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.cta-link-white:nth-child(2){
+    margin-left: 5rem;
+}
+
+.cta-link-white:hover{
+    border-bottom: 1px solid #fff;
+}
+
+/* Links */
+ul{
+    list-style: none;
+}
+
+.links{
+    margin-top: 1100px;
+    background: #f5f5f7;
+    color: #515154;
+    font-size: 12px;
+    /* padding: 0 50px; */
+}
+
+.links-nota{
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #86868b;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #616161;
+}
+
+.links-nota span{
+    color: #2997ff;
+}
+
+.links-nota span:hover{
+    text-decoration: underline;
+}
+
+.links-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links li{
+    margin-bottom: 10px;
+}
+
+.links li h3{
+    margin-top: 20px;
+}
+
+.copy{
+    display: flex;
+    background: #f5f5f7;
+    color: #86868b;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-left: 142px;
+    padding-right: 142px;
+    font-size: 12px;
+}
+
+.copy span{
+    color: #515154;
+}
+
+footer ul{
+    display: flex;
+    background: #f5f5f7;
+    color: #515154;
+}
+
+.footer-menu{
+    background: #f5f5f7;
+    color: #515154;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    padding-left: 142px;
+    padding-right: 142px;
+    font-size: 12px;
+}
+
+.footer-menu li span{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* .footer-copy{
+    border-bottom: none;
+}
+
+.footer-copy span{
+    color: #515154;
+}
+
+.footer-copy span:hover{
+    text-decoration: none;
+}  */
